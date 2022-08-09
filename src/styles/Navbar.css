@@ -1,0 +1,76 @@
+.navbar {
+  width: 20vw;
+  /* background: red; */
+}
+
+.navbar-header {
+  display: flex;
+  align-items: center;
+  background: radial-gradient(
+    circle,
+    rgba(255, 224, 255, 1) 0%,
+    rgba(254, 217, 254, 1) 39%,
+    rgba(253, 222, 253, 1) 100%
+  );
+  border: 2px solid rgba(255, 199, 243, 0.5);
+  border-radius: 0 0 15px 0;
+}
+.navbar-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(255, 255, 255, 0.2);
+  padding: 5rem 0;
+  backdrop-filter: blur(15rem);
+  border: 2px solid rgba(255, 199, 243, 0.5);
+  border-radius: 10px;
+}
+.nav-item {
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  margin: 10px 0px;
+  background: radial-gradient(
+    circle,
+    rgba(255, 224, 255, 1) 0%,
+    rgba(254, 217, 254, 1) 39%,
+    rgba(253, 222, 253, 1) 100%
+  );
+  border: 1px solid #ed7dad;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50vw;
+  width: 70%;
+  height: 3rem;
+}
+.nav-item > p {
+  margin: auto;
+  font-weight: 700;
+  color: #ff007a;
+}
+
+.navbar-social-icons {
+  width: 20vw;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  align-items: flex-start;
+  justify-content: center;
+  border: 2px solid rgba(255, 199, 243, 0.5);
+}
+
+.navbar-social-icon {
+  height: 35px;
+  margin: 5px 10px;
+  aspect-ratio: 1 / 1;
+
+  fill: #ff007a;
+}
+.icon {
+  height: 25px;
+  width: 25px;
+  fill: #ff007a;
+}
+
+.discord {
+  margin-top: 10px;
+}
