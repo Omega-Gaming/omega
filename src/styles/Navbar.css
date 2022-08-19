@@ -43,6 +43,13 @@
   border-radius: 50vw;
   width: 70%;
   height: 3rem;
+  cursor: pointer;
+}
+.nav-item-link {
+  text-decoration: none;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 .nav-item > p {
   margin: auto;
