@@ -1,0 +1,28 @@
+.wallet-container {
+  display: flex;
+  height: 10%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.connection-status,
+.prize {
+  background: rgb(255, 0, 122);
+  color: #fdfdfd;
+  padding: 15px;
+  border-radius: 10px;
+  font-weight: 700;
+  box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, 0.55);
+  cursor: pointer;
+}
+.og-price,
+.og-balance {
+  background: rgb(230, 46, 123, 0.1);
+  padding: 15px;
+  border-radius: 10px;
+  color: #ff007a;
+  font-weight: 700;
+  box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, 0.55);
+  cursor: pointer;
+}

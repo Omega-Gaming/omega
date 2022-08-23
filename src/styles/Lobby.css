@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "Bruno Ace";
+  src: local("Bruno Ace"), url(./fonts/BrunoAce-Regular.ttf) format("truetype");
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-left: -100px;
+}
+.header > h3 {
+  font-family: "Bruno Ace";
+  font-size: 1.8em;
+  color: #f24990;
+  letter-spacing: 4px;
+}
+.header > input {
+  width: 60%;
+  margin: 15px 20px;
+  font-family: "Bruno Ace";
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.8em;
+}
+
+.game-card {
+  background: #fff;
+  display: flex;
+  margin: 15px 45px;
+  padding: 10px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ffb6c1;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.game-card-info,
+.game-card-buttons,
+.game-card-rules {
+  display: flex;
+}
+
+.game-card-info > div {
+  padding: 5px 25px;
+  margin: 10px;
+  background: rgba(230, 46, 123, 0.15);
+  border-radius: 10px;
+  font-weight: 500;
+  color: #ff007a;
+}
+
+.game-card-buttons button {
+  padding: 10px 25px;
+  background: #ff007a;
+  color: #fff;
+  font-weight: 700;
+  margin: 0 10px;
+  border-radius: 15px;
+  border: none;
+}
+.game-card-rules {
+  flex-direction: column;
+  margin-left: 25px;
+}
+.game-card-rules > span {
+  color: #787878;
+  font-weight: 700;
+}
+
+.arrow {
+  display: flex;
+  justify-content: center;
+}
+
+.arrow > svg {
+  width: 15px;
+  fill: #ff007a;
+}
